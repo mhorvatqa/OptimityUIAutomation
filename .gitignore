@@ -1,0 +1,8 @@
+.classpath
+AndroidApp/
+iOSApp/
+target/
+test-output/
+reports/
+.metadata
+.idea

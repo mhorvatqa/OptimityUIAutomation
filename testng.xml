@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="HappyPath - Smoke test" verbose="5">
+
+<!--
+Final order to run the test to set up an instance
+-->
+  <test name="Initial Release" preserve-order="true">
+    <classes>
+      <class name="com.myhealthsphere.challenger.app.automation.mobile.gui.pages.MobileMyHealthSphereTest">
+        <methods>
+        <!-- exclude include -->
+        
+        <!--Run 1-->
+        <include name="test1OnBoardingFlow" />
+        <include name="test2SignUp" />
+        <!-- exclude include -->
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
